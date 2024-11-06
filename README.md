@@ -3,6 +3,7 @@
 
 
 ---
+###STATIC REACT WEBSITE DEPLOYMENT 
 
 ### **a) Deployment Using Vercel**
 
