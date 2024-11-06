@@ -712,7 +712,7 @@ Using **Cloudflare Tunnel** (formerly known as **Cloudflare Argo Tunnel**) to ex
 
 Here’s a step-by-step guide on how to use **Cloudflare Tunnel** to redirect to your local `localhost` server.
 
----
+
 
 ### **Steps to Set Up Cloudflare Tunnel to Redirect to Localhost**
 
