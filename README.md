@@ -705,8 +705,7 @@ Let’s assume you’re using an **AWS EC2 instance** to host your full stack ap
 - In **production**, you can serve both the frontend and backend from the same machine using your Express server. The React build files are served as static files from Express, and the API is handled by Express as well.
 - Use a **custom domain** by configuring DNS to point to your server's public IP, and enable **SSL** for security (e.g., using **Let's Encrypt**).
 - Use a **reverse proxy** (e.g., **Nginx**) if you want to manage routing between the frontend and backend in production more efficiently.
-
-This setup is common for smaller applications or projects where you don't need to scale your frontend and backend independently. However, for large-scale production applications, you may want to separate your frontend and backend into different services or containers.
+ - This setup is common for smaller applications or projects where you don't need to scale your frontend and backend independently. However, for large-scale production applications, you may want to separate your frontend and backend into different services or containers.
 ---
 Using **Cloudflare Tunnel** (formerly known as **Cloudflare Argo Tunnel**) to expose your locally hosted application to the public internet, including redirecting traffic to `localhost`, is a great option when you want to bypass traditional port forwarding or when you don't want to expose your local machine to the internet directly. Cloudflare Tunnel allows you to securely expose your local server (whether it's running a React/Next.js frontend, Express backend, or both) to the internet via Cloudflare’s network, without requiring any changes to your firewall or DNS settings.
 
