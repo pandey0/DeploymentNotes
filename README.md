@@ -204,7 +204,7 @@ When deploying a static site like a React app, using a **Content Delivery Networ
 
 Sure! Let's focus specifically on how to deploy a static React app using **Bunny.net** as the CDN and **Bunny Object Storage** for hosting the static files. I'll break it down step-by-step to give you a detailed guide.
 
-### **c) Deployment Using Bunny.net CDN and Object Storage (for Static React Apps)**
+### **D) Deployment Using Bunny.net CDN and Object Storage (for Static React Apps)**
 
 This method is highly efficient for deploying static React apps, offering low-latency delivery via the CDN and scalability through Bunny’s object storage.
 
